@@ -1,4 +1,19 @@
-h2, h3{
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    background-color: #ebebeb;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
+h2, h3, h4{
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -7,11 +22,11 @@ body h1{
 
 }
 
-body, ul{
+
+ body, ul{
     margin: 0;
     padding: 0; 
- }
- 
+ } 
 
 ul,li{
     font-family: 'Josefin Sans', sans-serif;
@@ -19,10 +34,10 @@ ul,li{
 
 nav ul li{
     display: inline-block;
-    margin:0;
+    margin: 0 15px;
     padding: 0;
-    margin: 0 15px; /* o referes to top and bottom and 15 refers to left and right */
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav ul{
@@ -32,11 +47,12 @@ nav ul{
 
 }
 
-nav{
-    position: fixed;
-    z-index:1 ;
-    width: 100%;
+nav li a{
+    text-decoration: none;
+    color: black;
 }
+
+
 
 figure img{
     border-radius: 150px;
@@ -51,6 +67,7 @@ img.center{
 header{
     top: 180px;
     position: relative;
+    margin-bottom: 220px;
 }
 
 .name {
@@ -58,13 +75,132 @@ header{
 }
 
 .name h1{
-    font-size: 100px;
+    font-size: 130px;
     letter-spacing: 10px;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
 }
 
 .name h2{
     font-size: 30px;
     letter-spacing: 30px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
+
+.icons{
+    
+ text-align: center;
+ background-repeat: no-repeat;
+
+}
+
+.icon1{
+    width: 80px;
+    height: 80px;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 130px;
+    margin-bottom: 20px;
+}
+
+.about h3{
+    font-size: 30px;
+    line-height: 2;
+}
+
+.about h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    padding: 70px;
+    font-weight: normal;
+}
+
+.about{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills h1{
+    text-align: center;
+    font-size: 130px;
+    margin-bottom: 20px; 
+}
+
+.skills h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    padding: 70px;
+    font-weight: normal;
+}
+
+.skills ul li{
+    text-align:center;
+    
+    font-size: 30px;
+    line-height: 2;
+
+}
+
+.portfolio{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.portfolio h1{
+    text-align: center;
+    font-size: 130px;
+    margin-bottom: 20px; 
+}
+
+.portfolio h3{
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
+.contact{
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 130px;
+    margin-bottom: 20px; 
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 30px ;
+    line-height: 2;
+}
+
+.contact h4{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+.right-alignment{
+    text-align: right;
+
+}
+
+
+
+
