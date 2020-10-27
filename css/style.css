@@ -55,20 +55,24 @@ nav li a{
 
 
 figure img{
-    border-radius: 150px;
+    /* border-radius: 150px; */
     width: 300px;
     }
 
-img.center{
-    display: block;
-    margin: 0 auto;
-}
+    img.center {
+        display: block;
+        margin: 0px auto;
+        padding-top: 80px;
+    }
 
 header{
-    top: 180px;
+    top: 70px;
     position: relative;
-    margin-bottom: 220px;
+    margin-bottom: 180px;
+    background-color: #ebebeb;
 }
+
+
 
 .name {
     text-align: center;
