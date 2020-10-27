@@ -1,0 +1,70 @@
+h2, h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body h1{
+    font-family: 'Amatic SC', cursive;
+
+}
+
+body, ul{
+    margin: 0;
+    padding: 0; 
+ }
+ 
+
+ul,li{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    margin: 0 15px; /* o referes to top and bottom and 15 refers to left and right */
+    text-transform: uppercase;
+}
+
+nav ul{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+
+}
+
+nav{
+    position: fixed;
+    z-index:1 ;
+    width: 100%;
+}
+
+figure img{
+    border-radius: 150px;
+    width: 300px;
+    }
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    top: 180px;
+    position: relative;
+}
+
+.name {
+    text-align: center;
+}
+
+.name h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-bottom: -20px;
+}
+
+.name h2{
+    font-size: 30px;
+    letter-spacing: 30px;
+    margin-bottom: 80px;
+}
