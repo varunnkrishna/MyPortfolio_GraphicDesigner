@@ -131,6 +131,8 @@ header{
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #ebebeb;
+    border-radius: 50% 40% 31% 70% / 36% 60% 41% 64% ;
 }
 
 .skills h1{
